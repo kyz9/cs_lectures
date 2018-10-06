@@ -1,0 +1,22 @@
+print('-'*80, end='\n\n')
+print("'{}+{}={}'.format(1, 2, 3):", '{}+{}={}'.format(1, 2, 3))
+print("'AbAcDAb'.replace('Ab', '**'):", 'AbAcDAb'.replace('Ab', '**'))
+print("'AbCdEf'.find('E'):", 'AbCdEf'.find('E'))
+print("'AbCdJf'.find('E'):", 'AbCdJf'.find('E'))
+print("'\\n  abc abc abc \\n\\t'.strip():", '\n  abc abc abc \n\t'.strip(), end='\n\n')
+print('-'*80, end='\n\n')
+print("'Abc'.isdigit():", 'Abc'.isdigit())
+print("'-123'.isdigit():", '-123'.isdigit())
+print("'-12.3'.isdigit():", '-12.3'.isdigit())
+print("'123'.isdigit():", '123'.isdigit(), end='\n\n')
+print('-'*80, end='\n\n')
+print("ord('Щ')", ord('Щ'))
+print("chr(15000)", chr(15000), end='\n\n')
+print('-'*80, end='\n\n')
+a = ['a', 'b', 'c', 'd']
+print("a = ['a', 'b', 'c', 'd'], '_'.join(a):", '_'.join(a))
+a = '1 2 3 4 5 6'
+print("a = '1 2 3 4 5 6', a.split():", a.split())
+a = '1_2_3_4_5_6'
+print("a = '1_2_3_4_5_6', a.split('_'):", a.split('_'), end='\n\n')
+print('-'*80, end='\n\n')
