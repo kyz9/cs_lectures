@@ -7,13 +7,11 @@ def main():
     print('memory:', memory)
     state = 'q0'
     i = 0
-    while i < len(memory):
+    while state == 'q2':
         if state == 'q0':
             memory, i, state = q0(memory, i)
         if state == 'q1':
             memory, i, state = q1(memory, i)
-        if state == 'q2':
-            break
     print('result:', memory)
 
 
