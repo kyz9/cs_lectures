@@ -8,7 +8,7 @@ class Student:
 
 
     def print_hello(self): # метод класса Student
-        print('hello', self.name)
+        print('hello,', self.name)
 
 
 new_student_1 = Student(17)  # создание экземпляра класса Student, вызывается метод __init__, передается только age
